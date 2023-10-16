@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - main block
- * description: random number
- * return 0
+ * main - Entry point
+ * Description: 'random numbe and print number'
+ * Return: Always 0
  */
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n >0)
+	if (n > 0)
 		printf("%i is positive\n", n);
 	else if (n < 0)
 		printf("%i is negative\n", n);
