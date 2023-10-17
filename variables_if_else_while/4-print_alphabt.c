@@ -1,19 +1,25 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - 'Print alphabet in lowercase except q and e'
  *
- * Return: 0
+ * Return: Always 0
  */
 
 int main(void)
 {
-	char c;
+	char low, e, q;
 
-	for (char c = 'a' ; c <= 'z' ; c++)
+	e = 'e';
+	q = 'q';
 
-		if (c != 'e' && c != 'q')
-			putchar(c);
-}
+	for (low  = 'a'; low <= 'z'; low++)
+	{
+	if (low != e && c != q)
+	putchar(low);
+	}
 	putchar('\n');
 	return (0);
+}
