@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - 'Putchar'
+ * main - 'Print putchar'
  *
  * Return: Always 0
  */
