@@ -2,17 +2,17 @@
 
 /**
  * _abs - function that computes the absolute value of an integer
- * @5: absolute number
+ * @num: absolute number
  * Return: 0
  */
-int _abs(int)
+int _abs(int num)
 {
-	if (5 < 0)
+	if (num < 0)
 	{
-		return (-5);
+		return (-num);
 	}
 	else
 	{
-		return (0);
+		return (num);
 	}
 }
