@@ -5,7 +5,7 @@
  * @5: absolute number
  * Return: 0
  */
-int _abs(int 5))
+int _abs(int)
 {
 	if (5 < 0)
 	{
